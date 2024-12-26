@@ -7,7 +7,7 @@
   <remote name="LOS" fetch="https://github.com/LineageOS" />
 
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom-1" remote="astechpro20" revision="lineage-20" />
+  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom" remote="astechpro20" revision="lineage-20" />
 
   <!-- SELinux Policies -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="LOS" revision="lineage-20" />
