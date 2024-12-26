@@ -7,16 +7,16 @@
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" />
 
   <!-- Device Trees -->
-  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom-1" remote="astechpro20" revision="alphadroid-14" />
+  <project path="device/xiaomi/blossom" name="android_device_xiaomi_blossom-1" remote="astechpro20" revision="lineage-21" />
 
   <!-- SELinux policies -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="astechpro20" revision="fourteen" />
 
   <!-- Hardware Supports -->
-   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="25ji" revision="fourteen" />
+   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="astechpro20" revision="fourteen" />
   
   <!-- kernel tree -->
-  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="t25" revision="Udon_v2">
+  <project path="device/xiaomi/blossom-kernel" name="device_xiaomi_blossom-kernel" remote="astechpro20" revision="Udon_v2">
     <linkfile src="headers" dest="kernel/xiaomi/blossom" />
   </project>
 
@@ -24,6 +24,6 @@
   <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="astechpro20" revision="Udon_v2" />
 
   <!-- RevampedFMRadio -->
-  <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="25ji" revision="thirteen" />
+  <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="25ji" revision="tomfoolery" />
   
 </manifest>
