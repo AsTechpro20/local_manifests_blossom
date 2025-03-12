@@ -2,7 +2,6 @@
 <manifest>
   
   <!-- Remotes -->
-  <remote name="25ji" fetch="https://github.com/25ji-Telegram-de" />
   <remote name="astechpro20" fetch="https://github.com/AsTechpro20" />
   
   <!-- Device Trees -->
@@ -23,6 +22,6 @@
   <project path="vendor/xiaomi/blossom" name="proprietary_vendor_xiaomi_blossom" remote="astechpro20" revision="Udon_v2" />
 
   <!-- RevampedFMRadio -->
-  <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="25ji" revision="tomfoolery" />
+  <project path="packages/apps/RevampedFMRadio" name="android_packages_apps_RevampedFMRadio" remote="astechpro20" revision="main" />
   
 </manifest>
